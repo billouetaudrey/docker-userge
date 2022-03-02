@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  userge:
+      build:
+        context: https://github.com/billouetaudrey/UX-jutsu.git#alpha
+      restart: on-failure
+      env_file:
+        - config.env
+
+
