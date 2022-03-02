@@ -1,3 +1,4 @@
+#Install Docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
@@ -10,4 +11,6 @@ sudo sh get-docker.sh
 #sudo apt-get install python3-distutils python3-dev libffi-dev libssl-dev
 #curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 #sudo python3 get-pip.py
-#sudo pip3 install docker-compose
+
+#Install Docker Compose
+sudo pip3 install docker-compose
