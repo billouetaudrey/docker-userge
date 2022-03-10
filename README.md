@@ -2,7 +2,7 @@
 
 First clone this git and cd docker-userge
 
-Then, edit config.env
+Then, edit config.env (make it)
 
 Second, install docker with " sh setup-docker.sh " ( I don't try yet )
 
