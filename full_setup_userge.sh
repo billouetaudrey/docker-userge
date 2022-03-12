@@ -16,7 +16,7 @@ read -p "Do you want to download userge docker ? (y/n) " RESP
 if [ "$RESP" = "y" ]; then
 git clone https://github.com/billouetaudrey/docker-userge && cd docker-userge
 fi
-read -p "Do you want edit config.env ? (y/n) " RESP
+read -p "Do you want edit config.env ? (y/n) ' if YES, when done, do CTRL+X and Y" RESP
 if [ "$RESP" = "y" ]; then
 nano config.env
 fi
