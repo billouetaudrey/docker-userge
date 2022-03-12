@@ -15,3 +15,5 @@ OR
 
 Simply run "sh full_setup_userge.sh"
 and follow
+
+Small YT tuto : https://www.youtube.com/watch?v=WiHd-WigK4c
