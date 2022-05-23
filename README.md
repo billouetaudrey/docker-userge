@@ -20,7 +20,8 @@ Small YT tuto : https://www.youtube.com/watch?v=WiHd-WigK4c
 
 I suggest to do that for not using sudo
 
-sudo usermod -aG docker ${USER} 
+sudo usermod -aG docker ${USER}
+
 su - ${USER}
 
 It will add your user to docker group
